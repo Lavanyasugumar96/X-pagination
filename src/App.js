@@ -83,7 +83,7 @@ const PaginationApp = () => {
             </button>
 
             <span className="pagination-information">
-              Page {currentPage} 
+               {currentPage} 
             </span>
 
             <button
