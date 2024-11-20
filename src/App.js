@@ -81,6 +81,11 @@ const PaginationApp = () => {
             >
               Previous
             </button>
+
+            <span className="pagination-information">
+              Page {currentPage} 
+            </span>
+
             <button
               onClick={handleNext}
               disabled={currentPage === totalPages}
@@ -88,9 +93,7 @@ const PaginationApp = () => {
             >
               Next
             </button>
-            <span className="pagination-information">
-              Page {currentPage} of {totalPages}
-            </span>
+            
           </div>
         </>
       )}
