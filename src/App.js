@@ -76,7 +76,7 @@ const PaginationApp = () => {
           <div className="controls-Pagination">
             <button
               onClick={handlePrevious}
-              disabled={currentPage === 1}
+              
               className="pagination-button"
             >
               Previous
